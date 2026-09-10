@@ -3,19 +3,24 @@
   "name": "io.github.Pardesco/brandvane",
   "title": "Brandvane",
   "description": "SEO research and AI visibility evidence. Account required; new research uses paid allowances.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://brandvane.ai",
   "remotes": [
-    { "type": "streamable-http", "url": "https://app.brandvane.ai/mcp" }
+    {
+      "type": "streamable-http",
+      "url": "https://app.brandvane.ai/mcp"
+    }
   ],
   "_meta": {
     "io.modelcontextprotocol.registry/publisher-provided": {
       "documentation": "https://github.com/Pardesco/brandvane-claude-plugin#readme",
       "privacyPolicy": "https://brandvane.ai/privacy/",
       "support": "https://brandvane.ai/about/",
-      "authentication": "OAuth with pre-registered clients. Automatic client registration is not supported. Claude client-metadata compatibility is pending deployment and installed-client testing; see documentation before connecting.",
+      "authentication": "OAuth with pre-registered clients; no automatic client registration. Owner reports launch acceptance for existing Codex, Claude Desktop and ChatGPT web custom connections. The new Claude plugin client-metadata path separately awaits deployment and installed-client acceptance; not a blanket OAuth outage or platform approval.",
       "pricing": "https://brandvane.ai/pricing/",
-      "sourceNote": "The public repository contains Claude skills and connection documentation, not the hosted server implementation."
+      "sourceNote": "The public repository contains Claude skills and connection documentation, not the hosted server implementation.",
+      "creditPolicy": "Unused SEO credits carry forward and can be used during an active paid subscription. Fresh AI checks reset each paid billing period and do not roll over.",
+      "methodology": "https://brandvane.ai/how-we-measure/"
     }
   }
 }

@@ -2,7 +2,7 @@
 
 Turn SEO evidence into a clear next step. This plugin combines five focused skills with the [Brandvane](https://brandvane.ai) hosted MCP service.
 
-Submitted to the Claude plugin directory for review; not yet approved. Package validation has passed. The bundled OAuth connection still awaits deployment of tested server compatibility changes and an installed-client acceptance run. Until those are complete, use the supplied-data workflows; do not assume live authentication is ready.
+Submitted to the Claude plugin directory for review; not yet approved. Package validation has passed. The bundled OAuth connection still awaits deployment of tested server compatibility changes and an installed-client acceptance run. Until those are complete, use this plugin for supplied-data workflows; do not assume its bundled authentication is ready. Existing custom connections are a separate tested route (see below).
 
 ## What you can do
 
@@ -27,6 +27,14 @@ claude --plugin-dir ./brandvane-claude-plugin
 
 Use `/brandvane:seo-opportunities`, `/brandvane:content-brief`, `/brandvane:ai-evidence`, `/brandvane:rank-changes`, or `/brandvane:connect`. In Cowork, use its plugin interface to upload the packaged plugin when that option is available to your account. The plugin has been submitted through Console; no directory acceptance or verified badge is claimed.
 
+## Connection status
+
+Owner-assisted launch acceptance covered the existing pre-registered custom connections in Codex, Claude Desktop and ChatGPT web: sign-in, saved research or quotes, and server-side revocation. The new bundled Claude plugin client-metadata authentication path is separate: its compatibility update is not deployed and its installed-client acceptance is pending. This does not mean all Brandvane OAuth is unavailable, and it does not establish directory approval.
+
+Optional weekly Google rank scheduling is implemented and enabled, requires explicit recurring approval, and uses SEO credits. Automated tests cover schedule behavior; no week-long production monitoring study is claimed. The five supplied-data skills do not enroll users in schedules.
+
+Current methodology and product boundaries: [How we measure](https://brandvane.ai/how-we-measure/).
+
 ## Connect the optional hosted service
 
 The bundled server is `https://app.brandvane.ai/mcp`. In Claude Code, open `/mcp`, select the Brandvane server contributed by the plugin, and authenticate in the browser. In Cowork, use the connection controls shown for the plugin. Sign in to Brandvane with Google, confirm the selected workspace and callback host, and allow the connection. No API key or client secret belongs in this repository or in chat.
@@ -41,7 +49,7 @@ The keyword quote is five SEO credits for up to 25 results. An unsubscribed Bran
 
 ## Costs and limits
 
-The plugin source is free under MIT. Brandvane research is a separate service: SEO is $29/month with 900 SEO credits and five fresh AI checks; Pro+ is $59/month with 2,200 credits and 20 checks shared by an owner and one teammate. Check [current pricing](https://brandvane.ai/pricing/) before purchasing. Allowances do not roll over, and account or shared safety limits can pause new work.
+The plugin source is free under MIT. Brandvane research is a separate service: SEO is $29/month with 900 SEO credits and five fresh AI checks; Pro+ is $59/month with 2,200 credits and 20 checks shared by an owner and one teammate. Check [current pricing](https://brandvane.ai/pricing/) before purchasing. Unused SEO credits carry forward and can be used during an active paid subscription. Fresh AI checks reset each paid billing period and do not roll over. Account or shared safety limits can pause new work.
 
 Quotes and saved reads/exports are free. New SEO research consumes quoted credits. A fresh AI answer uses one separate AI unit. Optional weekly Google checks require explicit recurring approval and may run as soon as created. This plugin's skills do not enroll users in schedules. No payment, checkout, team management or account-deletion action is exposed by these skills.
 
