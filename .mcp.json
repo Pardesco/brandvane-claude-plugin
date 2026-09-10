@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "brandvane": {
+      "type": "http",
+      "url": "https://app.brandvane.ai/mcp"
+    }
+  }
+}

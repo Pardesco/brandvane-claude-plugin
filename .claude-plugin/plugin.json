@@ -1,0 +1,20 @@
+{
+  "name": "brandvane",
+  "version": "0.1.0",
+  "description": "Turn saved SEO research and AI visibility evidence into practical next steps, with optional quoted research through Brandvane.",
+  "author": {
+    "name": "Brandvane",
+    "email": "support@brandvane.ai",
+    "url": "https://brandvane.ai"
+  },
+  "homepage": "https://brandvane.ai",
+  "repository": "https://github.com/Pardesco/brandvane-claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "seo",
+    "keyword-research",
+    "ai-visibility",
+    "content-briefs",
+    "mcp"
+  ]
+}
