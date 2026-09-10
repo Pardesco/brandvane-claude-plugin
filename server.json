@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Pardesco/brandvane",
+  "title": "Brandvane",
+  "description": "SEO research, saved reports and AI visibility evidence. Account required; new research uses allowances.",
+  "version": "0.1.0",
+  "websiteUrl": "https://brandvane.ai",
+  "remotes": [
+    { "type": "streamable-http", "url": "https://app.brandvane.ai/mcp" }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "documentation": "https://github.com/Pardesco/brandvane-claude-plugin#readme",
+      "privacyPolicy": "https://brandvane.ai/privacy/",
+      "support": "https://brandvane.ai/about/",
+      "authentication": "OAuth with pre-registered clients. Automatic client registration is not supported. Claude client-metadata compatibility is pending deployment and installed-client testing; see documentation before connecting.",
+      "pricing": "https://brandvane.ai/pricing/",
+      "sourceNote": "The public repository contains Claude skills and connection documentation, not the hosted server implementation."
+    }
+  }
+}

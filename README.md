@@ -2,7 +2,7 @@
 
 Turn SEO evidence into a clear next step. This plugin combines five focused skills with the [Brandvane](https://brandvane.ai) hosted MCP service.
 
-Submission candidate: package validation has passed. The bundled OAuth connection still awaits deployment of tested server compatibility changes and an installed-client acceptance run. Until those are complete, use the supplied-data workflows; do not assume live authentication is ready.
+Submitted to the Claude plugin directory for review; not yet approved. Package validation has passed. The bundled OAuth connection still awaits deployment of tested server compatibility changes and an installed-client acceptance run. Until those are complete, use the supplied-data workflows; do not assume live authentication is ready.
 
 ## What you can do
 
@@ -16,6 +16,8 @@ The supplied-data workflows work without a Brandvane subscription. The example i
 
 ## Install locally
 
+For a reproducible, no-account example, follow the [five-minute demo](examples/walkthrough.md). It includes a synthetic input, a copyable prompt, an illustrative output, and checks for unsupported claims. No paid research is needed.
+
 Clone this repository and start Claude Code with the plugin directory:
 
 ```sh
@@ -23,7 +25,7 @@ git clone https://github.com/Pardesco/brandvane-claude-plugin.git
 claude --plugin-dir ./brandvane-claude-plugin
 ```
 
-Use `/brandvane:seo-opportunities`, `/brandvane:content-brief`, `/brandvane:ai-evidence`, `/brandvane:rank-changes`, or `/brandvane:connect`. In Cowork, use its plugin interface to upload the packaged plugin when that option is available to your account. This project is being prepared for the Console plugin directory; no directory acceptance or verified badge is claimed.
+Use `/brandvane:seo-opportunities`, `/brandvane:content-brief`, `/brandvane:ai-evidence`, `/brandvane:rank-changes`, or `/brandvane:connect`. In Cowork, use its plugin interface to upload the packaged plugin when that option is available to your account. The plugin has been submitted through Console; no directory acceptance or verified badge is claimed.
 
 ## Connect the optional hosted service
 
